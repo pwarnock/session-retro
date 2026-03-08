@@ -8,6 +8,5 @@
   },
   "repository": "https://github.com/pwarnock/session-retro",
   "license": "MIT",
-  "keywords": ["retro", "retrospective", "session-log", "memory", "learnings", "hooks"],
-  "hooks": "./hooks/hooks.json"
+  "keywords": ["retro", "retrospective", "session-log", "memory", "learnings", "hooks"]
 }
