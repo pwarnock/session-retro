@@ -1,7 +1,7 @@
 {
   "name": "session-retro",
   "version": "1.0.0",
-  "description": "Session retrospective skill with hook-driven prompting. Generates structured session summaries with learnings that feed back into project memory.",
+  "description": "Session retrospective skill with hook-driven prompting. Generates structured session summaries with learnings routed to the project's or the user's instruction files.",
   "author": {
     "name": "Peter Warnock",
     "url": "https://github.com/pwarnock"

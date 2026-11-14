@@ -1,6 +1,6 @@
 # session-retro
 
-A Claude Code plugin that generates structured session retrospectives with hook-driven prompting. Captures work done, decisions made, and learnings that feed back into project memory.
+A Claude Code plugin that generates structured session retrospectives with hook-driven prompting. Captures work done, decisions made, and learnings routed to the project's or the user's instruction files.
 
 ## Features
 
@@ -50,7 +50,7 @@ Run `/retro` (or `/retro my-topic-slug`) to generate a retrospective:
 1. Finds the commit range since the last retro
 2. Reviews conversation context for goals, decisions, and learnings
 3. Writes `docs/session-logs/YYYY-MM-DD-<slug>.md`
-4. Offers to update CLAUDE.md or project memory with learnings
+4. Offers to add each learning to the project's committed instruction file (project-specific) or the user-level one (system-specific)
 
 ## License
 
